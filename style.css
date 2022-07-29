@@ -1,0 +1,112 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: 3f 1f;
+    padding: 2rem;
+    gap: 1rem;
+    background-image: url(julovesBack1.jpg)
+}
+.barra{
+    font-size: 15px;
+    color: rgb(43, 80, 95);
+   }
+   .barra ul li{
+    padding: 0px;
+    display: inline-block;
+   
+    padding-right: 30px;
+}
+.header{
+    grid-column: 1/3;
+    padding: 2rem;
+    background-color: cadetblue;
+    padding-left: 30%;
+    font-size: 100px;
+    font-family: sans-serif;
+
+}
+a{
+    color:rgb(43, 80, 95);
+    font-size: 15px;
+    display: inline-block;
+    
+}
+.main{
+    padding: 2rem;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.card{
+    padding: 1rem 2 rem;
+    color: aliceblue;
+}
+.titulo{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 42%;
+    color: aliceblue;
+    background-color: cadetblue ;
+}
+.card-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:0.5rem;
+
+}
+.card2{
+    padding: 1rem;
+}
+
+.formulario{
+   border-style: ridge;
+    background-image: url(julovesback.jpg);
+    font-family:sans-serif ;
+    color: cadetblue;
+    padding: 15px;
+}
+.formulario1{
+    margin-left: 35% ;
+    
+}
+.card3{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 42%;
+    color: aliceblue;
+    background-color: cadetblue ;
+}
+.historia{
+    color: rgb(246, 247, 244);
+    background-color: rgb(194, 207, 6);
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.pie{
+    grid-template-columns: 1/3;
+    grid: flex;
+    padding: 1rem;
+    background-color: cadetblue;
+    padding-left: 70px;
+   }
+   .pie1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    padding-left: 40%;
+   }
+   .pie2{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-left: 41%;
+
+   }
+    
